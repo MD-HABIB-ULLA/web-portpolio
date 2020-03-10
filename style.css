@@ -1,0 +1,18 @@
+body{
+    font-family: 'Acme', sans-serif;
+}
+h1{ 
+    font-size: 50px;
+}
+span{
+    color: darkturquoise;
+}
+.div1{
+    width: 40%;
+    float: left;
+    padding: 5%;
+}
+img{
+    width: 100%;
+ 
+}
