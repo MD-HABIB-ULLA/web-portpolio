@@ -1,18 +1,73 @@
 body{
-    font-family: 'Acme', sans-serif;
+    font-family: 'Baloo Thambi 2', cursive;
+    margin: 0px;
 }
 h1{ 
     font-size: 50px;
 }
-span{
+.color{
     color: darkturquoise;
 }
 .div1{
     width: 40%;
     float: left;
-    padding: 5%;
+    padding-left: 2%;
+    margin-left: 5%;
+   
 }
 img{
     width: 100%;
  
+}
+.top{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, Aqua, DodgerBlue
+    );
+    padding: 10px 20px ;
+    border-radius: 5px;
+    color: white;
+    font-weight:700px ;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.bottom{
+    background-image:url("image/dream-bg.png") ;
+    background-repeat: no-repeat;
+   background-position: right;
+}
+.advance{
+    box-shadow: 10px 10px 40px darkturquoise;
+    height: 70%; 
+    border-radius: 5px; 
+    background-color: white; 
+}
+.Experiences{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#habib{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, LightPink );
+    border-image-slice: 1;
+}
+#habib1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, Aqua, DodgerBlue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
